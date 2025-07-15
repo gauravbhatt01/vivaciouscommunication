@@ -7,5 +7,4 @@ urlpatterns = [
     path('reviews/', views.reviews, name='viv-reviews'),
     path('certificate/', views.certificate, name='viv-cert'),
     path('sign-in/', views.signin, name='viv-signin'),
-    path('sign-up/', views.signup, name='viv-signup'),
 ]

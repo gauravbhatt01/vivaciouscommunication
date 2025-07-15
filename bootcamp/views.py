@@ -22,3 +22,6 @@ def signin(request):
 
 def signup(request):
     return render(request, 'sign-up.html')
+
+def error_404_view(request, exception):
+    return render(request, '404.html')

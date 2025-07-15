@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 class Relationsips(models.Model):
     date = models.DateField(primary_key=True)
